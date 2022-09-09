@@ -8,7 +8,14 @@ button {
   cursor: pointer;
 }
 
+/* определение css-переменных */
+
 :root {
+  --brand-color: #2196f3;
+  --bgn-color: #ffffff;
+  --second-back-color: #f5f4fa;
+  --third-back-color: #2f303a;
+  --font-color: #212121;
   --font-primary: "Roboto", sans-serif;
 }
 
