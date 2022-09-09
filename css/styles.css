@@ -31,3 +31,22 @@ body {
   font-family: var(--font-primary);
   font-style: normal;
 }
+
+/* логотип */
+
+.logo {
+  color: #000000;
+  font-family: "Raleway";
+  font-size: 26px;
+  line-height: 1.17em;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+
+.logo-color {
+  color: var(--brand-color);
+}
+
+.logo-white {
+  color: #ffffff;
+}
