@@ -1,3 +1,13 @@
+/* сброс дефолтного стиля браузера */
+
+ul {
+  list-style: none;
+}
+
+button {
+  cursor: pointer;
+}
+
 :root {
   --font-primary: "Roboto", sans-serif;
 }
