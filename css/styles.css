@@ -144,8 +144,10 @@ body {
 
 /* стиль секции skills */
 
-.skills-title {
+.skills-headline {
   font-size: 36px;
+  font-weight: 700;
+  letter-spacing: 0.03em;
   line-height: 1.17;
 }
 
