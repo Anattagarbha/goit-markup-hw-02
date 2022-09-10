@@ -179,3 +179,35 @@ body {
   font-size: 16px;
   line-height: 1.17;
 }
+
+/* footer */
+
+.wst-footer {
+  display: block;
+  background-color: var(--third-bgn-color);
+  width: 1600px;
+  height: 252px;
+}
+
+/* adress menu */
+
+.address-item a {
+  color: #ffffff;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+.address-item a:hover,
+.address-item a:focus {
+  color: var(--brand-color);
+}
+
+.address-item [href="mailto:info@devstudio.com"] {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.address-item [href="tel:+380961111111"] {
+  color: rgba(255, 255, 255, 0.6);
+}
