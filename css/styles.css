@@ -167,8 +167,10 @@ body {
   height: 368px;
 }
 
-.team-title {
+.team-headline {
   font-size: 36px;
+  font-weight: 700;
+  letter-spacing: 0.03em;
   line-height: 1.17;
 }
 
