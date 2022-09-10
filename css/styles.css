@@ -129,6 +129,7 @@ body {
 .features-title {
   font-size: 14px;
   font-weight: 700;
+  letter-spacing: 0.03em;
   line-height: 1.14;
   text-transform: uppercase;
 }
@@ -137,6 +138,7 @@ body {
   color: #757575;
   font-size: 14px;
   font-weight: 400;
+  letter-spacing: 0.03em;
   line-height: 1.7;
 }
 
