@@ -138,3 +138,10 @@ body {
   font-weight: 400;
   line-height: 1.7;
 }
+
+/* стиль секции skills */
+
+.skills-title {
+  font-size: 36px;
+  line-height: 1.17px;
+}
