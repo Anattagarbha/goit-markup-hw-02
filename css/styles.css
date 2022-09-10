@@ -88,7 +88,7 @@ body {
 }
 
 /* стиль секции hero 
-(ширина меньше, чем в макете, для удобства просмотра) */
+(высота меньше, чем в макете, для удобства просмотра) */
 
 .hero {
   display: block;
@@ -121,4 +121,20 @@ body {
 .button:hover,
 .button:focus {
   color: #188ce8;
+}
+
+/* стиль секции features */
+
+.features-title {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+
+.features-item p {
+  color: #757575;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.7;
 }
