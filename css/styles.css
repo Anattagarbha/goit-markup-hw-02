@@ -38,9 +38,9 @@ body {
   color: #000000;
   font-family: "Raleway";
   font-size: 26px;
-  line-height: 1.17em;
-  letter-spacing: 0.02em;
-  text-decoration: none;
+  font-weight: 700;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
 }
 
 .logo-color {
