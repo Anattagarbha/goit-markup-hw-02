@@ -70,3 +70,19 @@ body {
 .current {
   color: var(--brand-color);
 }
+
+/* меню контактов */
+
+.contacts a {
+  color: #757575;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  line-height: 1.17em;
+  text-decoration: none;
+}
+
+.contact-item a:hover,
+.contact-item a:focus {
+  color: var(--brand-color);
+}
