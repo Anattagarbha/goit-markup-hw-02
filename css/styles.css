@@ -50,3 +50,23 @@ body {
 .logo-white {
   color: #ffffff;
 }
+
+/* меню навигации */
+
+.nav-items a {
+  color: #212121;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  line-height: 1.17em;
+  text-decoration: none;
+}
+
+.nav-item a:hover,
+.nav-item a:focus {
+  color: var(--brand-color);
+}
+
+.current {
+  color: var(--brand-color);
+}
