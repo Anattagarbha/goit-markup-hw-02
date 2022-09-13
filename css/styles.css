@@ -129,7 +129,6 @@ body {
 
 .features-title {
   font-size: 14px;
-  font-weight: 700;
   letter-spacing: 0.03em;
   line-height: 1.14;
   text-transform: uppercase;
@@ -138,7 +137,6 @@ body {
 .features-item p {
   color: #757575;
   font-size: 14px;
-  font-weight: 400;
   letter-spacing: 0.03em;
   line-height: 1.7;
 }
@@ -147,7 +145,6 @@ body {
 
 .skills-headline {
   font-size: 36px;
-  font-weight: 700;
   letter-spacing: 0.03em;
   line-height: 1.17;
 }
@@ -171,7 +168,6 @@ body {
 
 .team-headline {
   font-size: 36px;
-  font-weight: 700;
   letter-spacing: 0.03em;
   line-height: 1.17;
 }
@@ -185,7 +181,6 @@ body {
 
 .team-member p {
   color: #757575;
-  font-weight: 400;
   font-size: 16px;
   letter-spacing: 0.03em;
   line-height: 1.188;
@@ -205,7 +200,6 @@ body {
 .address-item a {
   color: #ffffff;
   font-style: normal;
-  font-weight: 400;
   font-size: 14px;
   letter-spacing: 0.03em;
   line-height: 1.7;
@@ -259,14 +253,12 @@ body {
 
 .project-item h2 {
   font-size: 18px;
-  font-weight: 700;
   letter-spacing: 0.06em;
   line-height: 2;
 }
 
 .project-item p {
   font-size: 16px;
-  font-weight: 400;
   color: #757575;
   letter-spacing: 0.03em;
   line-height: 1.875;
