@@ -20,7 +20,7 @@ button {
   --second-bgn-color: #f5f4fa;
   --third-bgn-color: #2f303a;
   --font-color: #212121;
-  --font-primary: "Roboto", sans-serif;
+  --font-primary: "Roboto", "Arial", sans-serif;
 }
 
 /* глобальный стиль страницы */
