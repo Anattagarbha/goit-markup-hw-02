@@ -20,6 +20,11 @@ button {
   --second-bgn-color: #f5f4fa;
   --third-bgn-color: #2f303a;
   --font-color: #212121;
+  --small-text: #757575;
+  --active-color: #188ce8;
+  --border-color: #eeeeee;
+  --mr-black: #000000;
+  --mr-white: #ffffff;
   --font-primary: "Roboto", "Arial", sans-serif;
 }
 
@@ -35,7 +40,7 @@ body {
 /* логотип */
 
 .logo {
-  color: #000000;
+  color: var(--mr-black);
   font-family: "Raleway";
   font-size: 26px;
   font-weight: 700;
@@ -48,13 +53,13 @@ body {
 }
 
 .logo-white {
-  color: #ffffff;
+  color: var(--mr-white);
 }
 
 /* меню навигации */
 
 .nav-items a {
-  color: #212121;
+  color: var(--font-color);
   font-size: 14px;
   font-weight: 500;
   letter-spacing: 0.02em;
@@ -74,7 +79,7 @@ body {
 /* меню контактов */
 
 .contacts a {
-  color: #757575;
+  color: var(--small-text);
   font-size: 14px;
   font-weight: 500;
   letter-spacing: 0.02em;
@@ -97,7 +102,7 @@ body {
 }
 
 .hero-headline {
-  color: #ffffff;
+  color: var(--mr-white);
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -110,7 +115,7 @@ body {
   border: none;
   border-radius: 4px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  color: #ffffff;
+  color: var(--mr-white);
   font-family: var(--font-primary);
   font-size: 16px;
   font-weight: 700;
@@ -122,7 +127,7 @@ body {
 
 .button:hover,
 .button:focus {
-  color: #188ce8;
+  color: var(--active-color);
 }
 
 /* стиль секции features */
@@ -135,7 +140,7 @@ body {
 }
 
 .features-item p {
-  color: #757575;
+  color: var(--small-text);
   font-size: 14px;
   letter-spacing: 0.03em;
   line-height: 1.7;
@@ -161,7 +166,7 @@ body {
   box-sizing: border-box;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
-  background-color: #ffffff;
+  background-color: var(--mr-white);
   width: 270px;
   height: 368px;
 }
@@ -180,7 +185,7 @@ body {
 }
 
 .team-member p {
-  color: #757575;
+  color: var(--small-text);
   font-size: 16px;
   letter-spacing: 0.03em;
   line-height: 1.188;
@@ -198,7 +203,7 @@ body {
 /* adress menu */
 
 .address-item a {
-  color: #ffffff;
+  color: var(--mr-white);
   font-style: normal;
   font-size: 14px;
   letter-spacing: 0.03em;
@@ -237,7 +242,7 @@ body {
 .portfolio-button:hover,
 .portfolio-button:focus {
   background-color: var(--brand-color);
-  color: #ffffff;
+  color: var(--mr-white);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
 }
@@ -246,7 +251,7 @@ body {
 
 .project-item {
   box-sizing: border-box;
-  border: 1px solid #eeeeee;
+  border: 1px solid var(--border-color);
   width: 370px;
   height: 404px;
 }
@@ -259,7 +264,7 @@ body {
 
 .project-item p {
   font-size: 16px;
-  color: #757575;
+  color: var(--small-text);
   letter-spacing: 0.03em;
   line-height: 1.875;
 }
