@@ -132,6 +132,11 @@ body {
 
 /* стиль секции features */
 
+.features-headline {
+  font-size: 36px;
+  line-height: 1.17;
+}
+
 .features-title {
   line-height: 1.14;
   text-transform: uppercase;
@@ -214,6 +219,11 @@ body {
 }
 
 /* страница portfolio */
+
+.portfolio-headline {
+  font-size: 36px;
+  line-height: 1.17;
+}
 
 /* фильтр проектов */
 
