@@ -47,7 +47,6 @@ body {
   font-size: 26px;
   font-weight: 700;
   line-height: 1.19;
-  letter-spacing: 0.03em;
 }
 
 .logo-color {
@@ -133,14 +132,12 @@ body {
 /* стиль секции features */
 
 .features-title {
-  letter-spacing: 0.03em;
   line-height: 1.14;
   text-transform: uppercase;
 }
 
 .features-item p {
   color: var(--small-text);
-  letter-spacing: 0.03em;
   line-height: 1.7;
 }
 
@@ -148,7 +145,6 @@ body {
 
 .skills-headline {
   font-size: 36px;
-  letter-spacing: 0.03em;
   line-height: 1.17;
 }
 
@@ -171,21 +167,18 @@ body {
 
 .team-headline {
   font-size: 36px;
-  letter-spacing: 0.03em;
   line-height: 1.17;
 }
 
 .team-member h3 {
   font-weight: 500;
   font-size: 16px;
-  letter-spacing: 0.03em;
   line-height: 1.188;
 }
 
 .team-member p {
   color: var(--small-text);
   font-size: 16px;
-  letter-spacing: 0.03em;
   line-height: 1.188;
 }
 
@@ -203,7 +196,6 @@ body {
 .address-item a {
   color: var(--mr-white);
   font-style: normal;
-  letter-spacing: 0.03em;
   line-height: 1.7;
 }
 
@@ -231,7 +223,6 @@ body {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 500;
-  letter-spacing: 0.03em;
   line-height: 1.625;
   text-align: center;
 }
@@ -262,6 +253,5 @@ body {
 .project-item p {
   font-size: 16px;
   color: var(--small-text);
-  letter-spacing: 0.03em;
   line-height: 1.875;
 }
