@@ -59,7 +59,7 @@ body {
 
 /* меню навигации */
 
-.nav-items a {
+.nav-item > .nav-link {
   color: var(--font-color);
   font-weight: 500;
   letter-spacing: 0.02em;
@@ -67,8 +67,8 @@ body {
   text-decoration: none;
 }
 
-.nav-item a:hover,
-.nav-item a:focus {
+.nav-link:hover,
+.nav-link:focus {
   color: var(--brand-color);
 }
 
@@ -78,15 +78,15 @@ body {
 
 /* меню контактов */
 
-.contacts a {
+.contact-item > .contact-link {
   color: var(--small-text);
   font-weight: 500;
   letter-spacing: 0.02em;
   line-height: 1.143;
 }
 
-.contact-item a:hover,
-.contact-item a:focus {
+.contact-link:hover,
+.contact-link:focus {
   color: var(--brand-color);
 }
 
@@ -136,7 +136,7 @@ body {
   text-transform: uppercase;
 }
 
-.features-item p {
+.features-item > .features-text {
   color: var(--small-text);
   line-height: 1.7;
 }
@@ -170,13 +170,13 @@ body {
   line-height: 1.17;
 }
 
-.team-member h3 {
+.team-member > .member-name {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.188;
 }
 
-.team-member p {
+.team-member > .member-function {
   color: var(--small-text);
   font-size: 16px;
   line-height: 1.188;
@@ -193,14 +193,14 @@ body {
 
 /* adress menu */
 
-.address-item a {
+.address-item > .address-link {
   color: var(--mr-white);
   font-style: normal;
   line-height: 1.7;
 }
 
-.address-item a:hover,
-.address-item a:focus {
+.address-item > .address-link:hover,
+.address-item > .address-link:focus {
   color: var(--brand-color);
 }
 
@@ -244,13 +244,13 @@ body {
   height: 404px;
 }
 
-.project-item h2 {
+.project-item > .project-name {
   font-size: 18px;
   letter-spacing: 0.06em;
   line-height: 2;
 }
 
-.project-item p {
+.project-item > .project-function {
   font-size: 16px;
   color: var(--small-text);
   line-height: 1.875;
