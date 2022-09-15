@@ -100,7 +100,10 @@ body {
 (высота меньше, чем в макете, для удобства просмотра) */
 
 .hero {
+  display: block;
   background-color: var(--third-bgn-color);
+  width: 1600px;
+  height: 300px;
 }
 
 .hero-headline {
@@ -125,7 +128,6 @@ body {
   line-height: 1.875;
   padding: 10px 32px;
   text-align: center;
-  min-width: 200px;
 }
 
 /* стиль секции features */
@@ -155,7 +157,9 @@ body {
 /* стиль секции team */
 
 .team {
+  display: block;
   background-color: var(--second-bgn-color);
+  width: 1600px;
 }
 
 .team-member {
@@ -187,7 +191,10 @@ body {
 /* footer */
 
 .wst-footer {
+  display: block;
   background-color: var(--third-bgn-color);
+  width: 1600px;
+  height: 252px;
 }
 
 /* adress menu */
